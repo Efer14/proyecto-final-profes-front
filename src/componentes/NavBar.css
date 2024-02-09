@@ -1,0 +1,144 @@
+.navegacion {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: #03e9f4 solid 2px;
+    padding: 10px;
+}
+
+
+nav {
+    display: inline;
+    margin: 0;
+    position: relative;
+    width: auto;
+    height: auto;
+    background: transparent;
+    border-radius: 1px;
+    font-size: 0;
+
+}
+
+header {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0;
+    background: transparent;
+
+}
+
+nav a {
+   
+    height: 100%;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+    border-radius: 2px;
+}
+
+nav a:hover{
+   font-style: oblique;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: sans-serif;
+    background: #2c3e50;
+}
+
+h1 {
+
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+    color: #ecf0f1;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: sans-serif;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white
+}
+
+.active{
+    background-color: #03e9f4;
+    color:white;
+}
+
+button{
+    border: none;
+    background: none;
+    font-size: 30px;
+}
+
+.menu-mobile{
+    display: none;
+
+}
+
+@media only screen and (max-width: 940px) {
+    .logo{
+        display: flex;
+        position: absolute;
+        top:15px;
+        left: 35px;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items:center;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 50%;
+        background-color: #2c3e50;
+        
+
+    }
+    .nav-mobile {
+        flex-direction: column;
+        align-items:flex-end;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #2c3e50;
+        border-radius: 0 0 4px 4px;
+        display: none;
+        transition: all 0.5s ease-in-out;
+    }
+
+    nav.active {
+        display: flex;
+        margin-right: 50%;
+    }
+
+    nav a {
+        width: 50%;
+        text-align: center;
+        display: block;
+             
+    }
+
+    .menu-mobile{
+        position: absolute;
+        display: block;
+        right: 20px;
+        color: white;
+
+    }
+}
+

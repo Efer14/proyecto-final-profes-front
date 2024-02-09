@@ -1,0 +1,44 @@
+.card {
+    width: 18rem;
+    border-color: #03e9f4;
+    background-color: rgba(0, 0, 0, .5);
+
+}
+
+.bloquecard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 20px;
+    width: 90%;
+    margin: 10% auto;
+
+}
+
+.card-title {
+    color: #03e9f4;
+}
+
+.botonP {
+    margin-left: 30%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .bloquecard {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+.card {
+    border-color: #03e9f4;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.card-title {
+    color: #03e9f4;
+}
+
+.botonP {
+    margin-left: 30%;
+}

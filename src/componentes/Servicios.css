@@ -1,0 +1,17 @@
+.containerServicios{
+background-image: url(../../public/imagenes/trading.jpg);
+height: 650px;
+position: relative;
+
+}
+
+.eric{
+    position: absolute;
+    bottom: 33px;
+    left: 5px;
+    background-color: #0002;
+}
+h5{
+    color: black;
+}
+

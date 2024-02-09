@@ -16,7 +16,31 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "imagenes/IMAGEN1.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    
+    {
+      "src": "imagenes/imagen2.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    
+    {
+      "src":"imagenes/imagen3.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+
+    {
+      "src":"imagenes/imagenServicios.jpg",
+      "type": "image/png",
+      "sizes": "512x512"
     }
+
   ],
   "start_url": ".",
   "display": "standalone",
